@@ -1,0 +1,26 @@
+{
+  "name": "eyeos-component-tests",
+  "version": "0.0.48",
+  "description": "Library to do component-tests in eyeos backend services",
+  "author": "eyeOS",
+  "homepage": "http://www.eyeos.com/",
+  "bin": {
+    "execute-component-tests": "./src/tools/execute-component-tests.js",
+    "pipe-logs": "./src/tools/pipe-logs.sh"
+  },
+  "dependencies": {
+    "eyeos-check-availability": "*"
+  },
+  "devDependencies": {
+    "eyeos-gruntfile": "*",
+    "mocha": "1.20.0",
+    "chai": "1.8.0",
+    "sinon": "1.7.3",
+    "grunt": "0.4.5",
+    "grunt-init": "0.2.1",
+    "grunt-shell": "0.7.0",
+    "grunt-mocha-test": "0.11.0",
+    "eyeos-hooks": "*"
+  },
+  "license": "AGPL-3.0"
+}
