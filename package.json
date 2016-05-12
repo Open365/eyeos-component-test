@@ -1,6 +1,6 @@
 {
   "name": "eyeos-component-tests",
-  "version": "0.0.48",
+  "version": "0.0.49",
   "description": "Library to do component-tests in eyeos backend services",
   "author": "eyeOS",
   "homepage": "http://www.eyeos.com/",
